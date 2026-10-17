@@ -1,0 +1,187 @@
+html, body {
+    background-color: #ececec;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', 'Georgia', serif;
+    color: #2c1e12;
+    margin-top: 0;
+    font-weight: 700;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.background-image {
+    width: 100vw;
+    object-fit: cover;
+}
+.btn-custom {
+    background-color: #826F60 !important;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #fff !important; 
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.btn-custom:hover {
+    background-color: transparent !important;
+    color: #826F60 !important;
+    border: 1px solid #826F60 !important;
+    transform: scale(1.08) !important;
+}
+.btn-custom-light {
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.btn-custom-light:hover {
+    background-color: #fff !important;
+    color: #826F60 !important;
+    transform: scale(1.08) !important;
+}
+.btn-custom-outline {
+    margin: 0 10px;
+    background-color: transparent !important;
+    color: #826F60 !important;
+    border: 1px solid #826F60 !important;
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.btn-custom-outline:hover {
+    background-color: #ececec !important;
+    color: #333 !important;
+    border: 1px solid #333 !important;
+    transform: scale(1.08) !important;
+}
+.btn-outline-themed {
+    background-color: transparent !important;
+    color: #c8a97e !important;
+    border: 1px solid #c8a97e !important;
+    margin-top: auto;
+    align-self: flex-start;
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);;
+}
+.btn-outline-themed:hover {
+    background-color: #c8a97e !important;
+    color: #fff !important;
+    border: 1px solid #c8a97e !important;
+    transform: scale(1.08) !important;
+}
+.show-all-button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+.page-wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.main-header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main-header h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.diamond-separator .diamond {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #826F60;
+    transform: rotate(45deg);
+    margin: 0 6px;
+}
+.diamond-separator-small .diamond {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #826F60;
+    transform: rotate(45deg);
+    margin: 0 4px;
+}
+.card {
+    overflow: hidden;
+}
+.card-img-top {
+    transition: transform 0.4s ease;
+}
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.about-section-item {
+    padding: 50px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    gap: 30px;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+.about-section-item.alt-layout {
+    flex-direction: row-reverse;
+}
+.about-image-wrapper {
+    flex: 1 1 400px;
+    border: #826F60 1px solid;
+    rotate: 7deg;
+}
+.about-image-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+    rotate: -7deg;
+}
+.about-text-content {
+    flex: 1 1 500px;
+}
+.about-section-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.title-separator-small {
+    width: 60px;
+    height: 3px;
+    background-color: #c8a97e;
+    margin-bottom: 20px;
+}
+.about-text-content p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+    .main-header h1 { font-size: 30px; }
+    .section-heading-title { 
+        font-size: 24px; 
+        justify-content: center; 
+    }
+}
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.success {
+    color: green;
+    font-size: 14px;
+}
+/* * {
+    outline: 1px solid red;
+} */
+
+/* Booking page specific styles */
